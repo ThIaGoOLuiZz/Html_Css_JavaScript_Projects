@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 235, 211);
+    height: 1100px;
+}
+
+#titleForm{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 0px;
+}
+
+
+#mainSection{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px;
+    width: 800px;
+    height: 900px;
+    position: absolute;
+    left: 31%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.informacoesPessoais{
+    height: 10px auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 40px;
+    border: none;
+    color: rgb(74, 135, 214);
+}
+
+.informacoesPessoais label{
+    margin-left: 5px;
+}
+
+.txtLegend{
+    font-size: 50px;
+}
+
+#nome{
+    width: 80%;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#email{
+    margin-left: 11px;
+    width: 80%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#cep{
+    width: 100px;
+    margin-left: 31px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#cep2{
+    width: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.informacoesPessoais label{
+    font-size: 25px;
+}
+
+#nome::placeholder{
+    position: absolute;
+    top: 25%;
+}
+#email::placeholder{
+    position: absolute;
+    top: 25%;
+}
+#cep::placeholder{
+    position: absolute;
+    top: 25%;
+}
+
+#idade{
+    margin-left: 16.7px;
+    width: 80%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.eventos{
+    height: 10px auto;
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding-top: 40px;
+    border: none;
+    color: rgb(74, 135, 214);
+    border: none;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.eventos #txtEventos{
+    font-size: 50px;
+}
+
+#escolhaInteresses{
+    margin-left: 15px;
+    width: 65%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.home label{
+    float: left;
+}
+
+#checkbox{
+    padding-left: 370px;
+    margin-top: 20px;
+}
+
+#checkboxnao{
+    margin-left: 50px;
+}
+
+#submit{
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: rgb(142, 210, 142);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#curriculo{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btnEnviar{
+    height: 40px;
+    width: 660px;
+    font-size: 20px;
+    background-color: rgb(74, 135, 214);
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+}

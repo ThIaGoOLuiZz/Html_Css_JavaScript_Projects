@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" text="text/css" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="divHeader">
+            <h1>C.R Vasco da Gama</h1>
+            <img class="imagemHeader" src="../../imgs/emblema_Vasco.png" alt="Logo Vasco">
+        </div>
+    </header>
+    <div class="divNav">
+        <nav class="navigation">
+            <a href="../../index.html"><h4 class="navBar">Início</h4></a>
+            <a href="../../pages/sites/jogadores.html"><h4 class="navBar">Jogadores</h4></a>
+            <a href="../../pages/sites/historia.html"><h4 class="navBar">História</h4></a>
+            <a href="../../pages/sites/sobre.html"><h4 class="navBar">Sobre</h4></a>
+        </nav>
+    </div>
+    <section>
+        <section>
+            <div class="sobreDivSection">
+                <div><h2 id="titleFaleConosco">Fale Conosco</h2></div><hr id="line">
+                <form name="frmfaleconosco" method="get" action="#">
+                    <fieldset class="faleconosco">
+                        <legend>Dados pessoais:</legend>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="txtnome" id="nome">
+                        <label for="fone">Telefone: </label>
+                        <input type="text" name="txtfone" id="fone">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="txtemail" id="email">
+                    </fieldset>
+                    <fieldset class="faleconosco">
+                        <legend>Motivo do contato:</legend>
+                        <label for="for">Motivo: </label>
+                        <select name="selmotivo" id="motivo">
+                            <option value="">Escolha</option>
+                            <option value="RE">Reclamação</option>
+                            <option value="SU">Sugestão</option>
+                        </select>
+                        <label for="comentario">Comentário: </label>
+                        <textarea name="txtcomentario" id="comentario"></textarea>
+                        <button type="reset">Limpar</button><button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p class="textFooter">Copyright &copy; Escola Sistêmica 2019</p>
+    </footer>
+</body>
+</html>

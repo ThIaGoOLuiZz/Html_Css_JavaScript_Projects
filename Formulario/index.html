@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <div id="mainSection">
+            <div>
+                <h2 id="titleForm">Formulário de inscrição</h2>
+            </div>
+            <div>
+                <form name="formulario" method="get" action="#">
+                    <fieldset class="informacoesPessoais">
+                        <legend class="txtLegend">Informações Pessoais: </legend>
+                        <div>
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="txtNome" id="nome" placeholder="Nome">
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input type="text" name="txtemail" id="email" placeholder="Email">
+                        </div>
+                        <div class="container-cep">
+                            <label for="cep">Cep: </label>
+                            <input type="text" name="txtcep" id="cep" placeholder="cep" maxlength="5">
+                            <span>-</span>
+                            <input type="text" name="txtcep2" id="cep2" maxlength="3">
+                        </div>
+                        <div>
+                            <label for="idade">Idade: </label>
+                            <input type="date" name="txtIdade" id="idade">
+                        </div>
+                    </fieldset>
+                    <fieldset class="eventos">
+                        <legend id="txtEventos">Informações adicionais: </legend>
+                        <div>
+                            <label for="vagainteresse">Vaga de interesse: </label>
+                            <select name="escolhaInteresses" id="escolhaInteresses">
+                                <option value="devJunior">Desenvolvedor Junior</option>
+                                <option value="AnalistaDados">Analista de dados</option>
+                                <option value="suporte">Analista de Suporte</option>
+                                <option value="devRPA">Desenvolvedor RPA</option>
+                            </select>
+                        </div>
+                        <div class="home">
+                            <label for="homeoffice">Trabalharia Home Office?:</label>
+                            <div id="checkbox">
+                                <input type="checkbox" name="checkboxsim" id="checkboxsim">
+                                <span>Sim</span>
+                                <input type="checkbox" name="checkboxnao" id="checkboxnao">
+                                <span>Não</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Anexar curriculo: <input type="file" name="curriculo" id="curriculo"></label>
+                            <input type="submit" name="submit" id="submit">
+                        </div>
+                    </fieldset>
+                    <div id="rodape">
+                        <button id="btnEnviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
