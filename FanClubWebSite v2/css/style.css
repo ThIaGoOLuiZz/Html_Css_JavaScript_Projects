@@ -1,0 +1,26 @@
+.img-fluid {
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#imgs {
+    margin-top: 11%;
+}
+
+.img-fluid {
+    transition: transform 0.2s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
